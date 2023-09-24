@@ -87,9 +87,9 @@ const Home = () => {
           <video
             controls
             src={introVideo}
-            controlsList="nodownload nofullscreen"
-            disableRemotePlayback
-            disablePictureInPicture
+            // controlsList="nodownload nofullscreen"
+            // disableRemotePlayback
+            // disablePictureInPicture
           ></video>
         </div>
       </section>
