@@ -64,7 +64,7 @@ function App() {
         <>
           <Header isAuthenticated={isAuthenticated} user={user} />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route path="/courses" element={<Courses />} />
             <Route
               path="/courses/:id"
